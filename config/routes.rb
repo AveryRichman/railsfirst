@@ -1,4 +1,8 @@
 Railsfirst::Application.routes.draw do
+  get "info/contacts"
+
+  get "welcome/info"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
